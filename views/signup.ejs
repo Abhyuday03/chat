@@ -1,0 +1,18 @@
+
+<%- include("partials/header") -%>
+
+ <link rel= "stylesheet" href="/css/formstyle.css">
+    <h1>Sign Up</h1>
+    <form action="/otpverification" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" required=true>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+      <label for="mail">Contact NO:</label>
+      <input type="text" id="mail" name="user_number">
+      <label>Age </label>
+      <input type="number" id="under_13"  name="user_age"><label for="under_13" class="light">
+      
+    <button type="submit">Sign Up</button>
+  </form>
+<%- include("partials/footer") -%>

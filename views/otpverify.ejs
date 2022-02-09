@@ -1,0 +1,9 @@
+<%- include("partials/header") -%>
+<h1> PLEASE ENTER YOUR OTP</h1>
+<form action = "/usersignin" method ="post">
+    <label for="name">OTP</label>
+      <input type="number" id="name" name="entered_otp" required=true>
+      <button type="submit" name="">SUBMIT OTP</button>
+      <h5> did not recieve OTP</h5>
+</form>
+<%- include("partials/footer") -%>
